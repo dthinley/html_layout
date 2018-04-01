@@ -1,1 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 
+#page-wrapper{
+	border: 2px solid;
+	width: 1024px;
+	margin:0 auto;
+	padding: 10px;
+}
+
+
+#header{
+	border: 2px solid grey;
+	overflow: hidden;
+}
+
+#logo {
+	border: 2px solid brown;
+	width: 70px;
+	height: 50px;
+	float: left;
+	font-size: 20px;
+}
+
+#navigation-bar{
+	border: 2px solid lightgrey;
+	width: 600px;
+	display: inline-block;
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+#navigation-bar ul {
+	list-style: none;
+}
+#navigation-bar ul li{
+	display: inline-block;
+}
+
+#navigation-bar ul li a{
+	text-decoration: none;
+	color: black;
+	width: 120px;
+	text-align: center;	
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+#content {
+	border: 2px solid maroon;
+	margin-top: 20px;
+}
+
+#banner{
+	border: 2px solid green;
+}
+
+#banner img{
+	width: 100%;
+}
+
+
+#company-info {
+	border: 2px solid cyan;
+	margin-top: 50px;
+}
+
+#company-info h1{
+	margin-bottom: 10px;
+}
+#company-info p{
+	font-size: 18px;
+}
+
+#col-wrapper{
+	border: 2px solid orange;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.col {
+	border: 2px solid red;
+	width: 332px;
+	float:left;
+	
+}
+
+.col img{
+	width:100%;
+}
+
+
+.custom{
+	margin-left: 2px;
+}
